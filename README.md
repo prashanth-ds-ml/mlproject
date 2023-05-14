@@ -9,17 +9,6 @@ d. git config with email and username if its not done
 e. create a readme file to track the steps in the project
 f. create a setup.py and requirements.txt files
 
-Folder structure after step 1
-
-ML_project/
-|__src/
-  |__ __init__.py/
-|__venv/
-|__.gitignore
-|__README.md
-|__setup.py
-|__requirements.txt
-
 Step - 2
 
 a. create a folder components inside src and add a init.py inside components
@@ -34,30 +23,6 @@ h. create a exception.py file in src folder
 i. create a logger.py file in src folder
 j. create a utils.py file in src folder code is written as per requirement along the way of project
 
-Folder structure after step - 2
-
-ML_PROJECT/
-    src/
-        __init__.py
-        components/
-            __init__.py
-            data_ingestion.py
-            data_transformation.py
-            model_trainer.py
-        exception.py
-        logger.py
-        utils.py
-    logs/
-    pipeline/
-        __init__.py
-        predict_pipeline.py
-        train_pipeline.py
-    venv/
-    .gitignore
-    README.md
-    setup.py
-    requirements.txt
-
 
 Step - 3
 
@@ -66,69 +31,9 @@ b. create a new folder Notebook and add the data folder and EDA student performa
 c. go through the EDA notebook and understand the data
 d. go through the model training notebook as well
 
-
-ML_project/
-|__ logs/
-|__ MLproject.egg-info/
-|__ Notebook/
-  |__data/
-  |__ EDA student performance.ipynb/
-  |__ model training.ipynb
-|__ src/
-  |__ __init__.py/
-  |__ components/
-    |__ __init__.py/
-    |__ data_ingestion.py/
-    |__ data_transformation.py/
-    |__ model_trainer.py/
-  |__ pipeline/
-    |__ __init__.py/
-    |__ predict_pipeline.py/
-    |__ train_pipeline.py/
-  |__ exception.py/
-  |__ logger.py/
-  |__ utils.py/
-|__venv/
-|__.gitignore
-|__README.md
-|__setup.py
-|__requirements.txt
-
 Step - 4
 
 a. write code in data_ingestion.py file for data ingestion configuration
 b. using sklearn train_test_split split the data into train and test and store them in artifacts folder which is created using `makedirs` and join the path of the tain and test using `train_data_path: str = os.path.join('artifacts','train.csv')` and for test also similar line of code
 c. add logging so that we can check weather the data ingestion started or completed
 
-after this step the folder structure should be some thing like this
-
-ML_project/
-|__ artifacts/
-  |__ data.csv/
-  |__ test.csv/
-  |__ train.csv/
-|__ logs/
-|__ MLproject.egg-info/
-|__ Notebook/
-  |__data/
-  |__ EDA student performance.ipynb/
-  |__ model training.ipynb
-|__ src/
-  |__ __init__.py/
-  |__ components/
-    |__ __init__.py/
-    |__ data_ingestion.py/
-    |__ data_transformation.py/
-    |__ model_trainer.py/
-  |__ pipeline/
-    |__ __init__.py/
-    |__ predict_pipeline.py/
-    |__ train_pipeline.py/
-  |__ exception.py/
-  |__ logger.py/
-  |__ utils.py/
-|__venv/
-|__.gitignore
-|__README.md
-|__setup.py
-|__requirements.txt
