@@ -4,7 +4,7 @@
   "channel": "https://repo.anaconda.com/pkgs/main/noarch",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "C:\\Users\\prash\\miniconda3\\pkgs\\tzdata-2023c-h04d1e81_0",
+  "extracted_package_dir": "/home/zoro/miniconda3/pkgs/tzdata-2023c-h04d1e81_0",
   "features": "",
   "files": [
     "share/zoneinfo/Africa/Abidjan",
@@ -609,21 +609,21 @@
     "share/zoneinfo/leapseconds",
     "share/zoneinfo/tzdata.zi",
     "share/zoneinfo/zone.tab",
-    "share/zoneinfo/zone1970.tab",
-    ".nonadmin"
+    "share/zoneinfo/zone1970.tab"
   ],
   "fn": "tzdata-2023c-h04d1e81_0.conda",
   "legacy_bz2_md5": "a815d3bdb160bcc71687f2dda70d3ca4",
+  "legacy_bz2_size": 122218,
   "license": "CC-PDDC OR BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "C:\\Users\\prash\\miniconda3\\pkgs\\tzdata-2023c-h04d1e81_0",
+    "source": "/home/zoro/miniconda3/pkgs/tzdata-2023c-h04d1e81_0",
     "type": 1
   },
   "md5": "29db02adf8808f7c64642cead3e28acd",
   "name": "tzdata",
   "noarch": "generic",
-  "package_tarball_full_path": "C:\\Users\\prash\\miniconda3\\pkgs\\tzdata-2023c-h04d1e81_0.conda",
+  "package_tarball_full_path": "/home/zoro/miniconda3/pkgs/tzdata-2023c-h04d1e81_0.conda",
   "package_type": "noarch_generic",
   "paths_data": {
     "paths": [
@@ -4851,7 +4851,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "tzdata",
+  "requested_spec": "None",
   "sha256": "aa653896749686eb15c28c719a57df597bced46f983b1fdbcc9db3e2db9cc795",
   "size": 118328,
   "subdir": "noarch",
