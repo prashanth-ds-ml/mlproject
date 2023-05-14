@@ -36,28 +36,27 @@ j. create a utils.py file in src folder code is written as per requirement along
 
 Folder structure after step - 2
 
-ML_project/
-|__ logs/
-|__ MLproject.egg-info/
-|__ src/
-  |__ __init__.py/
-  |__ components/
-    |__ __init__.py/
-    |__ data_ingestion.py/
-    |__ data_transformation.py/
-    |__ model_trainer.py/
-  |__ pipeline/
-    |__ __init__.py/
-    |__ predict_pipeline.py/
-    |__ train_pipeline.py/
-  |__ exception.py/
-  |__ logger.py/
-  |__ utils.py/
-|__venv/
-|__.gitignore
-|__README.md
-|__setup.py
-|__requirements.txt
+ML_PROJECT/
+    src/
+        __init__.py
+        components/
+            __init__.py
+            data_ingestion.py
+            data_transformation.py
+            model_trainer.py
+        exception.py
+        logger.py
+        utils.py
+    logs/
+    pipeline/
+        __init__.py
+        predict_pipeline.py
+        train_pipeline.py
+    venv/
+    .gitignore
+    README.md
+    setup.py
+    requirements.txt
 
 
 Step - 3
